@@ -4,7 +4,7 @@ import ThemeSwitch from '../ThemeSwitch/ThemeSwitch'
 function Navigation() {
   return (
     <>
-    <nav className="flex sm:justify-center space-x-4">
+    <nav className="flex justify-center space-x-4">
         {[
             ['Home', '/'],
             ['Contacts', '/contacts'],
