@@ -10,8 +10,8 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: "Home - Comming soon Template",
-  description: 'This is a simple coming soon template built with NextJS and TailwindCSS. It is a lightweight and responsive template that can be used for various projects that require a "coming soon" page.',
+  title: "Teleport - Comming soon | Official wesite",
+  description: 'Teleport is a logistics company offering freight forwarding services worldwide. This page is soon to be seen as the official webpage of the company.',
 }
 
 export default function RootLayout({
@@ -22,11 +22,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/favicon.ico" />        
+        <link rel="icon" href="./favicon.ico" />        
       </Head>
-      <body className={ `${inter.className} bg-gray-200	min-h-screen dark:bg-[#0d1117] `}
+      <body className={ `${inter.className} bg-white	min-h-screen dark:bg-[#0d1117] `}
       >
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem={true}>          
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem={true}>
           <main className='main'>{children}</main>
         </ThemeProvider>          
       </body>

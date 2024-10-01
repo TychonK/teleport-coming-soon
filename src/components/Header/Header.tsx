@@ -2,8 +2,10 @@ import React from "react";
 import data from "../../../data/data";
 import Navigation from "../Navigation/Navigation";
 
+import Image from "next/image";
+
 function Header() {
-  const { sitename, sitetagline, siteurl } = data;
+  const { sitename, sitetagline } = data;
   return (
     <>
     <section className="container mx-auto p-4 text-center">
@@ -11,20 +13,17 @@ function Header() {
     </section>
       <header className="z-10 w-full max-w-5xl items-center justify-between text-sm ">
         <div className=" bottom-0 left-0 flex h-30 md:h-48 w-full items-end justify-center  lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-4 lg:pointer-events-auto lg:p-0"
-            href={siteurl}
-            rel="noopener noreferrer"
+          <div
           >
             <div className="flex flex-col text-center">
-              <h1 className="text-2xl uppercase lgtext-4xl text-sky-400/100 font-semibold	">
-                {sitename}
+              <h1 className="flex mx-auto items-center  text-2xl uppercase lg:text-4xl dark:text-mint text-accent font-semibold	">
+                <Image src="/logo.svg" alt="Logo" width={50} height={50} /><span className="px-[10px]">{sitename}</span><Image src="/logo.svg" alt="Logo" width={50} height={50} />
               </h1>
-              <p className="text-xl font-xl m-2 text-slate-800 dark:text-slate-100">
+              <p className="text-2xl font-xl m-2 text-slate-800 dark:text-slate-100">
                 {sitetagline}
               </p>
             </div>
-          </a>
+          </div>
         </div>
       </header>
     </>
