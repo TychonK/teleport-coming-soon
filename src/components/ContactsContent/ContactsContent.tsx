@@ -17,7 +17,7 @@ function ContactsContent() {
         <Paperplane />
         <section className="relative z-10 text-white flex min-h-screen flex-col w-full items-center justify-between p-5 lg:p-12">
         <Header />
-        <ul className="flex flex-col gap-y-4 md:gap-y-6 justify-center items-center">
+        <ul className="flex flex-col mt-8 gap-y-4 md:gap-y-6 justify-center items-center">
           <li className="text-left w-[350px] p-6 lg:px-8 rounded-[40px] bg-alarm group">
             <Link
               href="tel:+3806783058035"
