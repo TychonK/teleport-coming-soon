@@ -48,7 +48,7 @@ function ContactsContent() {
           </li>
           <li className="text-left w-[350px] p-6 lg:px-8 rounded-[40px] bg-accent group">
             <Link
-              href="https://goo.gl/maps/example"
+              href="https://maps.app.goo.gl/ek62G1VZyR93RFUL9"
               passHref
               className="flex gap-2 md:gap-4 items-center"
             >
@@ -57,7 +57,7 @@ function ContactsContent() {
               </div>
               <div className="group-hover:text-slate-900 transition duration-300 text-xl">
                 <p className="font-bold">Address:</p>
-                <p>Kyiv, Ukraine</p>
+                <p>St. Brovarska 1, Prolisky, 08322</p>
               </div>
             </Link>
           </li>
