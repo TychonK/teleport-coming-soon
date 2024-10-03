@@ -20,7 +20,7 @@ function ContactsContent() {
         <ul className="flex flex-col mt-8 gap-y-4 md:gap-y-6 justify-center items-center">
           <li className="text-left w-[350px] p-6 lg:px-8 rounded-[40px] bg-alarm group">
             <Link
-              href="tel:+380800500575"
+              href="tel:+380442011515"
               className="flex gap-2 md:gap-4 items-center"
             >
               <div className="w-fit h-fit rounded-full border-white border-2 p-2 md:p-4 group-hover:text-slate-900 group-hover:border-slate-900 transition duration-300">
@@ -28,13 +28,13 @@ function ContactsContent() {
               </div>
               <div className="group-hover:text-slate-900 transition duration-300 text-xl">
                 <p className="font-bold">Phone:</p>
-                <p>+380 800 500 575</p>
+                <p>+38 (044) 201 15 15</p>
               </div>
             </Link>
           </li>
           <li className="text-left w-[350px] p-6 lg:px-8 rounded-[40px] bg-main group">
             <Link
-              href="mailto:info@teleport.ua"
+              href="mailto:office@teleport.ua"
               className="flex gap-2 md:gap-4 items-center"
             >
               <div className="w-fit h-fit rounded-full border-white border-2 p-2 md:p-4 group-hover:text-slate-900 group-hover:border-slate-900 transition duration-300">
@@ -42,7 +42,7 @@ function ContactsContent() {
               </div>
               <div className="group-hover:text-slate-900 transition duration-300 text-xl">
                 <p className="font-bold">Email:</p>
-                <p>info@teleport.ua</p>
+                <p>office@teleport.ua</p>
               </div>
             </Link>
           </li>
