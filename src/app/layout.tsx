@@ -29,8 +29,8 @@ export default function RootLayout({
         <meta property="og:description" content="Teleport is a logistics company offering freight forwarding services worldwide. This page is soon to be seen as the official webpage of the company." />
         <meta property="og:url" content="https://www.teleport.ua" />
         <meta property="og:site_name" content="Teleport" />
-        <meta property="og:image" content="/teleport-og.png" />
-        <meta property="og:image:secure_url" content="/teleport-og.png" />
+        <meta property="og:image" content="https://teleport.ua/teleport.png" />
+        <meta property="og:image:secure_url" content="https://teleport.ua/teleport.png" />
       </Head>
       <body className={ `${inter.className} bg-white	min-h-screen dark:bg-[#0d1117] `}
       >
