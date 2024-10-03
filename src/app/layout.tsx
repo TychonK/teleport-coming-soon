@@ -21,7 +21,7 @@ export const metadata = {
     siteName: 'Teleport',
     images: [
       {
-        url: '/teleport-og.png', 
+        url: 'https://teleport.ua/teleport-og.png', 
         width: 1200,
         height: 630,
         alt: 'Teleport - Coming soon | Official website',
